@@ -12,8 +12,8 @@ public class FirstSecond {
         int regNo = sc.nextInt();
         System.out.println("Registration Number: " + regNo);
 
-        sc.nextLine();  // Consume the newline character left after nextInt()
         System.out.print("Enter your date of birth: ");
+       sc.nextLine();
         String dob = sc.nextLine();
         System.out.println("Date of Birth: " + dob);
         
