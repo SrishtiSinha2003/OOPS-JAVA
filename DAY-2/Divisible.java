@@ -4,16 +4,16 @@ public class Divisible {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number: ");
-        int number = sc.nextInt();
+        int num = sc.nextInt();
 
-        int sumOfDigits = 0, temp = number;
+        int sum = 0, temp = num;
 
         while (temp != 0) {
-            sumOfDigits += temp % 10;
+            sum += temp % 10;
             temp /= 10;
         }
 
-        if (number % sumOfDigits == 0) {
+        if (num % sum == 0) {
             System.out.println("Yes");
         } else {
             System.out.println("No");
