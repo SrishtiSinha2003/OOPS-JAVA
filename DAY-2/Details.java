@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 class Employee {
@@ -27,23 +28,4 @@ class Employee {
         System.out.println("----------------------------");
     }
 }
-
-public class Details {
-    public static void main(String[] args) {
-        Employee[] employees = new Employee[5];
-        Scanner scanner = new Scanner(System.in); 
-
-        for (int i = 0; i < 5; i++) {
-            employees[i] = new Employee();
-            System.out.println("Enter details for Employee " + (i + 1) + ":");
-            employees[i].getDetails(scanner);
-        }
-
-        System.out.println("\nEmployee Details:");
-        for (Employee emp : employees) {
-            emp.displayDetails();
-        }
-
-        scanner.close(); 
-    }
-}
+   
