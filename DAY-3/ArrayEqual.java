@@ -9,7 +9,7 @@ public class ArrayEqual {
                 }
             }
         } else {
-            System.out.println("Not equal");
+            System.out.println("Arrays are Not equal");
         }
     }
 }
