@@ -13,8 +13,6 @@ class CarClass {
     public void displayDetails() {
         System.out.println("Make: " + make + ", Model: " + model + ", Year: " + year + ", Color: " + color);
     }
-}
-public class Main {
     public static void main(String[] args) {
         CarClass myCar = new CarClass("Toyota", "Corolla", 2020, "Blue");
         myCar.displayDetails();
