@@ -10,4 +10,7 @@ class Product{
         this.productPrice = productPrice;
         this.quantityInStock = quantityInStock;
     }
+    public void discount(double discountPercent) {
+        productPrice -= productPrice * (discountPercent / 100);
+    }
 }
