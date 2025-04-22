@@ -1,4 +1,4 @@
-**DATA** **STRUCTURE** **AND** **OOPS** **Program** **in** **JAVA**
+**DATA** **STRUCTURE** **AND** **OOPS** **Program** **in** **JAVA** 
 <br>
 This repository contains Java programs demonstrating various Object-Oriented Programming (OOP) concepts. 
 <br>
